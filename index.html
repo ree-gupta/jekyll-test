@@ -1,7 +1,36 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
+layout: splash
+permalink: /
+hidden: true
+header:
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/mm-home-page-feature.jpg
+
+excerpt: >
+  A resource directory for tools and resources supporting FAIR neuroscience.<br />
+  <small><a href="https://github.com/">G-Node Github</a></small>
+feature_row:
+  - image_path: /assets/images/mm-customizable-feature.png
+    alt: "what is FAIR"
+    title: "FAIR Principles"
+    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
+    url: "/FAIR-def/"
+    btn_class: "btn--primary"
+    btn_label: "What is FAIR?"
+  - image_path: /assets/images/mm-responsive-feature.png
+    alt: "other resource repositories"
+    title: "Other resources"
+    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
+    url: "other-repos"
+    btn_class: "btn--primary"
+    btn_label: "Links and Info"
+  - image_path: /assets/images/mm-free-feature.png
+    alt: "100% free"
+    title: "100% free"
+    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
+    url: "/docs/license/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"      
 ---
+
+{% include feature_row %}

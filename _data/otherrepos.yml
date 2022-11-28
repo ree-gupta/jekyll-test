@@ -1,0 +1,12 @@
+repos:
+  reponame: INCF Website
+  repolink: <a href="http://www.incf.org">Link to the organization</a>
+  description: |
+              The International Neuroinformatics CoordinatingFacility (INCF)
+              is an independent organization with a mission to develop, evaluate,
+              and endorse standards and best practices that embrace the principles
+              of Open, FAIR, and Citable neuroscience. They have adopted a rigorous
+              and formal procedure for evaluating and endorsing community standards
+              and best practices in support of the FAIR principles.
+              <a href="https://link.springer.com/article/10.1007/s12021-020-09509-0">M. B. Abrams et al. Neuroinformatics (2021)</a>
+              You can find the endorsed tools [here](https://www.incf.org/resources/sbps)
